@@ -1,0 +1,34 @@
+.work{
+    margin-top: 128px;
+  }
+  .work .box{
+    display: flex;
+  }
+  .work .left{
+    width: 40%;
+  }
+  .work .right{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 142px;
+  }
+  .work .right .worklist{
+    width: 49%;
+    margin-bottom: 48px;
+  }
+  .work .right .worklist h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #282938;
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+  .work .right .worklist p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+  }

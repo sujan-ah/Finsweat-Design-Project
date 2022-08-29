@@ -1,0 +1,18 @@
+.faq{
+    margin-top: 128px;
+  }
+  .faq .box{
+    display: flex;
+  }
+  .faq .left{
+    width: 40%;
+  }
+
+  .faq .right{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 142px;
+  }
+  
