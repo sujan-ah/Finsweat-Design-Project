@@ -1,40 +1,61 @@
 import React from 'react'
-import './accordian.css'
+import "./accordian.css";
 
-const Accordian = ({ open, handleOpen, index, heading, details }) => {
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from 'react-accessible-accordion';
+
+const Accordian = () => {
   return (
-    <div 
-      className='accordian-item' 
-      onClick={()=> handleOpen(index)}
-    >
-      <h2>
-        <span className='number'>
-          {index + 1 < 10 ? `0${index + 1}` : index + 1}
-        </span>
+    <Accordion className='accordion'>
 
-        {heading}
+      <AccordionItem>
+        <AccordionItemHeading className='heading'>
+            <AccordionItemButton>
+            <span className='number'>01</span>
+            How much time does it take?
+            </AccordionItemButton>
+        </AccordionItemHeading>
+        <AccordionItemPanel>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </AccordionItemPanel>
+      </AccordionItem>
 
-        <span className='icon'>
-          {open
-          ?
-            <i class="fa-solid fa-xmark"></i>
-          :
-            <i class="fa-solid fa-plus"></i>
-          }
-          
-          
-        </span>
-       
-      </h2>
-      
-      {open && 
-        <p>
-          <div
-            dangerouslySetInnerHTML={{__html: details}}
-          />
-        </p>
-      }
-    </div>
+      <AccordionItem>
+        <AccordionItemHeading className='heading'>
+            <AccordionItemButton>
+            <span className='number'>02</span>
+              What is your class naming convention?
+            </AccordionItemButton>
+        </AccordionItemHeading>
+        <AccordionItemPanel>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </AccordionItemPanel>
+      </AccordionItem>
+
+      <AccordionItem>
+        <AccordionItemHeading className='heading'>
+            <AccordionItemButton>
+            <span className='number'>03</span>
+              How do you communicate?
+            <span><i class="fa-solid fa-plus"></i></span>
+            </AccordionItemButton>
+        </AccordionItemHeading>
+        <AccordionItemPanel>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </AccordionItemPanel>
+      </AccordionItem>
+    </Accordion>
   )
 }
 

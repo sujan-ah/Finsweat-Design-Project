@@ -1,46 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Accordian from "../../helpers/accordian/Accordian";
 import "./faq.css";
 
 const Faq = () => {
-  let [accordian, setAccordian] = useState([
-    {
-      heading: "How much time does it take?",
-      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      state: true,
-    },
-    {
-      heading: "What is your class naming convention?",
-      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      state: false,
-    },
-    {
-      heading: "How do you communicate?",
-      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      state: false,
-    },
-    {
-      heading: "I have a bigger project. Can you handle it?",
-      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      state: false,
-    },
-    {
-      heading: "What is your class naming convention?",
-      details: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
-      state: false,
-    },
-  ])
-
-  let handleOpen = (id) =>{
-    accordian.map((item, index)=>{
-      if(index != id){
-        item.state = false
-      }else{
-        item.state =  !item.state
-      }
-    })
-    setAccordian([...accordian])
-  }
+  
     
 
 
@@ -56,16 +19,8 @@ const Faq = () => {
           </div>
 
           <div className="right">
-            {accordian.map((item, index)=>(
-              <Accordian 
-                open={item.state} 
-                handleOpen={handleOpen}
-                index={index}
-                heading={item.heading}
-                details={item.details}
-              />
-            ))}
             
+            <Accordian/>
           </div>
         </div>
       </div>

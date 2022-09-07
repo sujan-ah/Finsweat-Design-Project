@@ -1,55 +1,35 @@
-  .accordian-item {
-    border-bottom: 1px solid #ececf1;
-    padding-bottom: 32px;
-    margin-bottom: 32px;
-    width: 670px;
-  }
-  
-  .accordian-item:last-child {
-    border-bottom: 0;
-  }
-  
-  .accordian-item h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    color: #282938;
-    position: relative;
-    padding-left: 59px;
-    cursor: pointer;
-  }
-  
-  .accordian-item .number {
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    color: #2405f2;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .accordian-item p {
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: #282938;
-    margin-left: 59px;
-    line-height: 32px;
-    margin-top: 16px;
-    width: 624px;
-  }
-  
-  .accordian-item .icon {
-    color: #282938;
-    font-size: 16px;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-  }
+.accordion .heading {
+  background: #fff !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+.accordion p {
+  background: #fff !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 87%;
+  margin-left: 90px;
+}
+.accordion__button {
+  background-color: #fff !important;
+  color: #282938 !important;
+}
+.accordion__button:before {
+  display: inline-block;
+  content: 0 !important;
+  height: 0px !important;
+  width: 0px !important;
+  opacity: 0;
+}
 
-  .accordian-item:last-child p{
-    margin-left: 30px;
-  } 
-  
+.accordion {
+  border: none !important;
+}
+
+.accordion .number{
+  color: #2405F2;
+  padding-right: 50px;
+}
