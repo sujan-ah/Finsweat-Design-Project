@@ -8,7 +8,7 @@ const Blog = () => {
         <h1>Our blog</h1>
         <div className="box">
           <div className="img">
-            <img src="images/blogimg.png" />
+            <img src="images/blogimg3.png" />
             <span>19 Jan 2022</span>
             <h2>
               How one Webflow user grew his single person consultancy from
@@ -20,7 +20,7 @@ const Blog = () => {
             </p>
           </div>
           <div className="img">
-            <img src="images/blogimg2.png" />
+            <img src="images/blogimg.png" />
             <span>19 Jan 2022</span>
             <h2>
               How one Webflow user grew his single person consultancy from
