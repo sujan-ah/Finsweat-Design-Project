@@ -13,7 +13,6 @@ import Work from "../component/work/Work";
 const Home = () => {
   return (
     <>
-      <Navbar />
       <Banner />
       <Work />
       <Project />
@@ -22,7 +21,6 @@ const Home = () => {
       <Faq />
       <Startup />
       <Blog />
-      <Footer />
     </>
   );
 };
