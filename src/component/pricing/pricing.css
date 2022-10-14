@@ -1,0 +1,129 @@
+.price {
+  margin: 128px 0;
+}
+.price .heading {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.price .heading h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: #282938;
+}
+
+.price .heading p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #282938;
+  width: 562px;
+  line-height: 28px;
+  opacity: 70%;
+  margin-top: 16px;
+  margin-left: 360px;
+}
+.price .box {
+  display: flex;
+  justify-content: space-between;
+}
+.price .item {
+  width: 32%;
+  background: #f4f6fc;
+  padding: 64px 28px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin-top: 64px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.price .item h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  color: #282938;
+}
+.price .item h2 span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2405f2;
+}
+.price .item h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #282938;
+}
+.price .item p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 70%;
+  margin-top: 8px;
+  width: 281px;
+  line-height: 28px;
+  margin-bottom: 78px;
+}
+
+.price .item ul li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.price .item ul li span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 70%;
+}
+.price .item ul li img {
+  margin-right: 12px;
+}
+.price .btn {
+  text-align: center;
+}
+.price .btn a {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 18pxs;
+  padding: 16px 77px;
+  background: #000;
+  color: #f4f6fc;
+  border-radius: 41px;
+  display: inline-block;
+  margin-top: 79px;
+}
+
+.price .item:hover {
+  background: #1c1e53;
+  color: #fff;
+}
+.price .item:hover .btn a {
+  background: #fcd980;
+  color: #000;
+}
+.price .item:hover h2 {
+  color: #fff;
+}
+.price .item:hover h2 span {
+  color: #fcd980;
+}
+.price .item:hover h3 {
+  color: #fff;
+}
+.price .round {
+  width: 1151px;
+  height: 1151px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  position: absolute;
+  top: -73%;
+  left: -90%;
+  z-index: -1;
+}
