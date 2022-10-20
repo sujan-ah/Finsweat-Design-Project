@@ -34,6 +34,7 @@
   display: flex;
   justify-content: space-between;
   padding: 18px 35px;
+  background: #fcd980;
 }
 .footer .finsweet .img .email {
   width: 45%;

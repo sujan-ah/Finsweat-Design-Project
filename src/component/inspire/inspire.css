@@ -1,0 +1,50 @@
+.inspire {
+  background: url("../../../public/images/inspirebackimg.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inspire {
+  padding: 128px 160px;
+}
+.inspire .box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  /* justify-content: space-between; */
+}
+.inspire .text {
+  width: 45%;
+}
+
+.inspire .text h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+  margin-top: 54px;
+}
+.inspire .text h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: #282938;
+  line-height: 74px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+.inspire .text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #282938;
+  line-height: 28px;
+  opacity: 70%;
+}
+
+.inspire .img {
+  width: 45%;
+}
+.inspire .img img {
+  width: 100%;
+}
