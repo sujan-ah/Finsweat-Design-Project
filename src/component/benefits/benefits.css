@@ -1,0 +1,55 @@
+.benefits {
+  margin: 128px 0;
+}
+
+.benefits h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+  display: inline-block;
+  width: 630px;
+  margin-bottom: 48px;
+}
+.benefits .heading {
+  text-align: center;
+}
+.benefits .box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits .box .item {
+  width: 31%;
+  height: 300px;
+  background: #f4f6fc;
+  padding: 58px 32px 48px 45px;
+  box-sizing: border-box;
+  margin-bottom: 48px;
+}
+.benefits .box .item i {
+  color: #2405f2;
+  font-size: 32px;
+}
+.benefits .box .item h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #282938;
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+.benefits .box .item p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #282938;
+  line-height: 28px;
+}
+.benefits .benefitimg {
+  display: flex;
+  justify-content: space-between;
+}
+.benefits .imgmargin {
+  margin-top: 30px;
+}

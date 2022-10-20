@@ -1,0 +1,24 @@
+.meet {
+  background: url("../../../public/images/meetbackimg.png");
+  padding: 128px 0;
+}
+
+.meet h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+  display: inline-block;
+  width: 630px;
+  margin-bottom: 48px;
+}
+.meet .heading {
+  text-align: center;
+}
+.meet .box {
+  display: flex;
+  justify-content: space-between;
+}
+.meet .box .item:hover img {
+  color: #000;
+}

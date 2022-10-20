@@ -1,0 +1,18 @@
+.process {
+  margin-bottom: 128px;
+}
+
+.process .box {
+  display: flex;
+  justify-content: space-between;
+}
+.process h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+  margin-bottom: 48px;
+}
+.process .heading {
+  text-align: center;
+}
