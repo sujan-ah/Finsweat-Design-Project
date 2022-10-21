@@ -29,7 +29,9 @@ const Navbar = () => {
                 <Link to="/blog">Blog</Link>
               </li>
             </ul>
-            <a class="button">Contact us</a>
+            <a class="button">
+              <Link to="/contact">Contact us</Link>
+            </a>
           </div>
         </div>
       </div>

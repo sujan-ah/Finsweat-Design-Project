@@ -7,6 +7,7 @@ import Pricing from "./page/Pricing";
 import Footer from "./component/footer/Footer";
 import Feature from "./page/Feature";
 import Blog from "./page/Blog";
+import Contact from "./page/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/pricing" element={<Pricing />}></Route>
         <Route path="/feature" element={<Feature />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>

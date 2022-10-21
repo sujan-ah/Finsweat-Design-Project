@@ -28,14 +28,14 @@ nav .nav-item ul {
   color: #ffffff;
 }
 nav .nav-item ul li a {
-  color: #ffffff;
+  color: #fff;
 }
-nav .nav-item .button {
+nav .nav-item .button a {
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: #ffffff;
+  color: #fff;
   border: 1px solid rgba(244, 246, 252, 0.2);
   padding: 16px 48px;
   border-radius: 41px;
