@@ -1,0 +1,44 @@
+.featureclient {
+  margin: 128px;
+}
+
+.featureclient .box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featureclient .text {
+  width: 45%;
+  margin-top: 24px;
+}
+.featureclient .text h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #282938;
+}
+.featureclient .text h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: #282938;
+  line-height: 56px;
+  margin-top: 8px;
+  margin-bottom: 31px;
+  width: 624px;
+}
+.featureclient .text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #282938;
+  line-height: 28px;
+  opacity: 70%;
+}
+
+.featureclient .img {
+  width: 45%;
+}
+.featureclient .img img {
+  width: 100%;
+}
