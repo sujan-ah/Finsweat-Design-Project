@@ -4,6 +4,7 @@ import { BsFacebook } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { GrLinkedin } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -60,12 +61,22 @@ const Footer = () => {
             </div>
             <div class="nav-item">
               <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Features</li>
-                <li>Pricing</li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/about">About us</Link>
+                </li>
+                <li>
+                  <Link to="/feature">Features</Link>
+                </li>
+                <li>
+                  <Link to="/pricing">Pricing</Link>
+                </li>
                 <li>FAQ</li>
-                <li>Blog</li>
+                <li>
+                  <Link to="/blog">Blog</Link>
+                </li>
               </ul>
             </div>
           </div>
