@@ -1,0 +1,61 @@
+.study {
+  margin: 128px;
+}
+.study .heading {
+  text-align: center;
+}
+.study h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+  display: inline-block;
+  width: 949px;
+  margin-bottom: 16px;
+  line-height: 64px;
+}
+.study p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+  margin-bottom: 32px;
+}
+.study p span {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+  opacity: 87%;
+  margin-right: 6px;
+}
+.study img {
+  display: block;
+}
+.study .endline {
+  text-align: center;
+}
+.study h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+  margin-bottom: 16px;
+  line-height: 28px;
+  opacity: 70%;
+  width: 831px;
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+.study span {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2405f2;
+  margin-bottom: 32px;
+  line-height: 28px;
+  opacity: 70%;
+  width: 831px;
+}

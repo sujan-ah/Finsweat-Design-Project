@@ -1,14 +1,19 @@
-.blog {
+.blogblog {
   margin: 128px 0;
 }
-.blog h1 {
+.blogblog .text {
+  text-align: center;
+}
+.blogblog h1 {
   font-family: "Poppins", sans-serif;
   font-size: 48px;
   font-weight: 600;
   color: #282938;
   margin-bottom: 64px;
 }
-.blog .box {
+.blogblog .box {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 25px;
+  row-gap: 64px;
 }
