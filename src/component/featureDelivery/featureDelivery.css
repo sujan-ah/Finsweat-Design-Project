@@ -1,38 +1,37 @@
-.inspire {
-  background: url("../../../public/images/inspirebackimg.png");
+.featuredelivery {
+  background: url("/public/images/featuredeliverybackimg.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.inspire {
   padding: 128px 160px;
 }
-.inspire .box {
+
+.featuredelivery .box {
   display: flex;
-  flex-wrap: wrap;
-  gap: 100px;
-}
-.inspire .text {
-  width: 45%;
+  justify-content: space-between;
 }
 
-.inspire .text h6 {
+.featuredelivery .text {
+  width: 45%;
+  margin-top: 69px;
+}
+.featuredelivery .text h6 {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: #282938;
-  margin-top: 54px;
 }
-.inspire .text h1 {
+.featuredelivery .text h1 {
   font-family: "Poppins", sans-serif;
   font-size: 38px;
   font-weight: 600;
   color: #282938;
-  line-height: 74px;
-  margin-top: 4px;
-  margin-bottom: 16px;
+  line-height: 56px;
+  margin-top: 8px;
+  margin-bottom: 31px;
+  width: 624px;
 }
-.inspire .text p {
+.featuredelivery .text p {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -41,9 +40,9 @@
   opacity: 70%;
 }
 
-.inspire .img {
+.featuredelivery .img {
   width: 45%;
 }
-.inspire .img img {
+.featuredelivery .img img {
   width: 100%;
 }

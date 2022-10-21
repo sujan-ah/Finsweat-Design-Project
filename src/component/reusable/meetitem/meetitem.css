@@ -28,6 +28,7 @@
   font-size: 13px;
   margin-left: 11px;
   color: #fff;
+  transition: 0.4s;
   transform: scale(0);
 }
 .imgbox .text {

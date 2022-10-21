@@ -1,0 +1,56 @@
+.featurebanner {
+  height: 500px;
+  background: #1c1e53;
+  padding: 126px 0;
+}
+.featurebanner .box {
+  display: flex;
+  justify-content: center;
+}
+.featurebanner .text {
+  width: 50%;
+}
+.featurebanner .box .text h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 582px;
+  line-height: 74px;
+}
+.featurebanner .box .text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  width: 562px;
+  margin-top: 32px;
+  line-height: 28px;
+  opacity: 70%;
+}
+.featurebanner .box .text .work {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1b1c2b;
+  background: #fcd980;
+  padding: 16px 56px;
+  border-radius: 41px;
+  margin-right: 96px;
+}
+.featurebanner .box .text a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 32px;
+}
+.featurebanner .box .text i {
+  color: #ffffff;
+  margin-left: 16px;
+}
+.featurebanner .image {
+  width: 50%;
+  margin-top: 23px;
+}
