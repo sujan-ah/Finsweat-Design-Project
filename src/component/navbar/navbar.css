@@ -11,6 +11,11 @@ nav .logo {
   display: flex;
   align-items: center;
 }
+
+nav button {
+  display: none;
+}
+
 nav .nav-item {
   width: 80%;
   display: flex;
@@ -39,4 +44,54 @@ nav .nav-item .button a {
   border: 1px solid rgba(244, 246, 252, 0.2);
   padding: 16px 48px;
   border-radius: 41px;
+}
+
+@media (min-width: 320px) and (max-width: 675px) {
+  nav {
+    position: relative;
+    padding: 32px 10px;
+  }
+  nav button {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  nav .nav-item {
+    display: none;
+  }
+  nav .resnav-item {
+    width: 80%;
+    justify-content: flex-end;
+    column-gap: 48px;
+    align-items: center;
+    margin-top: 50px;
+  }
+  nav .resnav-item ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  nav .resnav-item ul li a {
+    color: #fff;
+  }
+  nav .resnav-item .button a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid rgba(244, 246, 252, 0.2);
+    padding: 10px 30px;
+    border-radius: 41px;
+  }
 }
